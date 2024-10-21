@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+
+<html>
+    <head>
+        <title>Cadastrar</title>
+        <meta charset="ISO-8859-1">  <!-- ISO-8859-1 pra usar Acento -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+         <h1>Cadastro de serviços para Estetica Automotiva</h1>
+        <form method="post" action="salvar_cadastro.jsp">
+
+            <p>
+                <label for="M">Matricula</label>
+                <input Type="text"  name="M" id="Matricula" size="50" >
+            </p>
+
+            <p>
+                <label for="N">Nome</label>
+                <input Type="text" name="N" id="nome" size="50">
+            </p>
+
+            <p>
+                <label for="S">Salário</label>
+                <input Type="number" name="S" id=" salario" min="0" step="0.01">
+            </p>
+
+            <p>
+                <input type="submit" value="salvar">
+            </p>
+        </form>
+    </body>
+</html>
+
